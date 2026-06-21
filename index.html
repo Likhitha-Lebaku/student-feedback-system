@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Feedback Form</h2>
+
+    <input type="text" id="studentName" placeholder="Student Name"><br><br>
+
+    <input type="text" id="course" placeholder="Course"><br><br>
+
+    <input type="number" id="rating" placeholder="Rating (1-5)"><br><br>
+
+    <textarea id="comments" placeholder="Comments"></textarea><br><br>
+
+    <button onclick="submitFeedback()">Submit Feedback</button>
+
+    <h3>Feedback List</h3>
+    <ul id="feedbackList"></ul>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
